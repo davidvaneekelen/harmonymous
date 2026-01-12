@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harmonymous – Harmony in Connection</title>
+  <meta name="description" content="Harmonymous is een laagdrempelige samenkomst waar mensen in herstel via muziek verbinding en harmonie ervaren." />
+
+  <style>
+    :root {
+      --blue-dark: #0b3cff;
+      --blue-light: #4fd1c5;
+      --bg-dark: #0f1220;
+      --bg-light: #151a33;
+      --text-main: #eaeaf0;
+      --text-muted: #a0a3c4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at top, var(--bg-light), var(--bg-dark));
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 900px;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .logo-placeholder {
+      width: 320px;
+      height: 120px;
+      margin: 0 auto 2rem auto;
+      border: 2px dashed rgba(255,255,255,0.25);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 3.2rem);
+      margin-bottom: 1rem;
+      background: linear-gradient(90deg, var(--blue-dark), var(--blue-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: var(--text-muted);
+      margin-bottom: 2.5rem;
+    }
+
+    .content {
+      max-width: 700px;
+      margin: 0 auto 3rem auto;
+      line-height: 1.7;
+      font-size: 1.05rem;
+      color: var(--text-main);
+    }
+
+    .content p {
+      margin-bottom: 1.4rem;
+    }
+
+    .divider {
+      width: 120px;
+      height: 4px;
+      margin: 2.5rem auto;
+      background: linear-gradient(90deg, var(--blue-dark), var(--blue-light));
+      border-radius: 999px;
+    }
+
+    .cta {
+      margin-top: 2rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 0.9rem 1.6rem;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: #ffffff;
+      background: linear-gradient(90deg, var(--blue-dark), var(--blue-light));
+      border-radius: 999px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      box-shadow: 0 10px 30px rgba(79, 209, 197, 0.25);
+    }
+
+    .cta a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 40px rgba(79, 209, 197, 0.35);
+    }
+
+    footer {
+      margin-top: 3.5rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 2rem 1.5rem;
+      }
+
+      .logo-placeholder {
+        width: 100%;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+
+    <!-- LOGO -->
+    <!-- Vervang deze div later door <img src="jouw-logo.jpg" alt="Harmonymous logo" /> -->
+    <div class="logo-placeholder">
+      Hier komt het Harmonymous-logo
+    </div>
+
+    <h1>Harmonymous</h1>
+    <h2>Waar harmonie ontstaat door verbinding</h2>
+
+    <div class="content">
+      <p>
+        Harmonymous is een laagdrempelig initiatief voor mensen in herstel.
+        Het is geïnspireerd op de kracht van zelfhulpgroepen én op de helende werking van samen muziek maken.
+      </p>
+
+      <p>
+        In Harmonymous-bijeenkomsten staat niet prestatie centraal, maar <strong>verbinding</strong>.
+        Je hoeft geen muzikale ervaring te hebben. Een verlangen om bij te dragen aan de harmonie is genoeg.
+      </p>
+
+      <p>
+        Door samen ritme, klank en ruimte te delen ontstaat iets dat woorden vaak niet kunnen raken:
+        het gevoel dat je er niet alleen voor staat.
+      </p>
+
+      <div class="divider"></div>
+
+      <p>
+        Deze website is momenteel in ontwikkeling.
+        Op dit moment onderzoeken we of er behoefte is aan Harmonymous-bijeenkomsten.
+      </p>
+    </div>
+
+    <div class="cta">
+      <!-- Vervang de # door de link naar je Google Form -->
+      <a href="#" target="_blank" rel="noopener">Ik wil mijn interesse delen</a>
+    </div>
+
+    <footer>
+      Harmonymous is een onafhankelijk initiatief en is niet verbonden aan NA, CA, AA, GA of CoDA.
+    </footer>
+
+  </main>
+</body>
+</html>
